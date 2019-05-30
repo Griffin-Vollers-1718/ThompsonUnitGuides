@@ -1,40 +1,40 @@
-// Welcome to the AP Computer Science Course! This is a guide that will help you along the way to getting a five on the //
-// AP Exam! First things first I want to describe what language you will be coding in throughout the year, which is Java. //
-// Java is an object orientated programing language, which you will find out more what that means later in the course //
-// To start off lets start with the backbone of all Java programs, classes and how to print to a console //
+/*Welcome to the AP Computer Science Course! This is a guide that will help you along the way to getting a five on the
+AP Exam! First things first I want to describe what language you will be coding in throughout the year, which is Java.
+Java is an object orientated programing language, which you will find out more what that means later in the course
+To start off lets start with the backbone of all Java programs, classes and how to print to a console
 
-// Here I have a class named Main. Now if you are using IDLE, the name of the class has to be the same as the page //
-// This class can do whatever I want it to, if I know the code that will make it do so //
-// The goal of this class is to create the sentence "Hello World", here is how you do that //
+Here I have a class named Main. Now if you are using IDLE, the name of the class has to be the same as the page
+This class can do whatever I want it to, if I know the code that will make it do so
+The goal of this class is to create the sentence "Hello World", here is how you do that */
 public class Unit1 {
-    // This is the the main method, which means that as soon as the class is instantiated, this method will occur //
-    // Think of it as whatever you put into here is what will happen when you start the actual code //
-    // This method is always typed as public static void main(String[] args), so to declare it you must type that //
+    /*This is the the main method, which means that as soon as the class is instantiated, this method will occur
+    Think of it as whatever you put into here is what will happen when you start the actual code
+    This method is always typed as public static void main(String[] args), so to declare it you must type that */
     public static void main(String[] args)
     {
         System.out.print("Hello World");
         //basic();//
 
     }
-    // if you run this code, on the console it will print Hello World. This is the most basic form of putting words and //
-    // such onto a console. Whatever words or things within the two quotation marks will be printed and if there is not //
-    // two quotation marks wither the code wont work or it will throw an error
-    // if you want to print it out on separate lines, use println instead of print //
-    // EX: //
-    //System.out.println("Hello");//
-    //System.out.println("World");//
-    // Will print //
-    // Hello //
-    // World //
-    // If you wish to see yourself, replace the code within the colored main method with the previous code //
+    /* if you run this code, on the console it will print Hello World. This is the most basic form of putting words and
+    such onto a console. Whatever words or things within the two quotation marks will be printed and if there is not
+    two quotation marks wither the code wont work or it will throw an error
+    if you want to print it out on separate lines, use println instead of print
+    EX:
+    System.out.println("Hello");
+    System.out.println("World");
+    Will print
+    Hello
+    World
+    If you wish to see yourself, replace the code within the colored main method with the previous code */
 
 
-    // Now to test your basic Java skills, find the errors in the following code and correct it so that way it will print //
-    // This is //
-    // a //
-    // basic Java //
-    // sentence. //
-    // You must print it out in that order without any error messages //
+    /* Now to test your basic Java skills, find the errors in the following code and correct it so that way it will print
+    This is
+    a
+    basic Java
+    sentence.
+    You must print it out in that order without any error messages */
     public static void basic()
     {
         System.0ut.print("This is");
@@ -44,31 +44,210 @@ public class Unit1 {
 
 
     }
-    // When you are ready go up to the main method and delete the two slashes on either side of the basic(). //
-    // Then after you complete that run Main //
-    // If there are errors or it does not look correct keep trying. If you need the answer go down to line 100 for the //
-    // full correct answer. //
+    /* When you are ready go up to the main method and delete the two slashes on either side of the basic().
+    Then after you complete that run Main
+    If there are errors or it does not look correct keep trying. If you need the answer go down to line 250 for the
+    full correct answers. */
 
 
 }
-// Now using the skills you just learned go to the Unit 1 Labs in Schoology and complete the Labs within //
-// This code within this part of the guide will help you complete this and the other things Thompson wants you to do //
-// Now onto other important things in Java that are in Unit 1 and basic java, variables and methods //
+/* Now using the skills you just learned go to the Unit 1 Labs in Schoology and complete the Labs within
+This code within this part of the guide will help you complete this and the other things Thompson wants you to do
+Now onto other important things in Java that are in Unit 1 and basic java, variables and methods */
 
 
 
 
-// Variables are exactly like what you think of in math x and y //
-// In math x and y change depending on the input, this is how variables are in java //
-// The only thing that is different is that in java you have to define what kind of information you are putting in //
-// The most simple way of doing this is by using primitive data types, or the words you put before a variable that are lowercase //
-// These next few lines contain all of the primitive data types relevant in this course. //
+/*Variables are exactly like what you think of in math x and y
+In math x and y change depending on the input, this is how variables are in java
+The only thing that is different is that in java you have to define what kind of information you are putting in
+The most simple way of doing this is by using primitive data types, or the words you put before a variable that are lowercase
+These next few lines contain all of the primitive data types relevant in this course. */
 class Variables {
     int i = 0; // must be a number without a decimal place //
     double x = 1.0; // must be a number but will always have a decimal place //
     boolean tru = true; // is either true or false //
     char a = 'a'; // is a character, so a letter or a number but the number, if imputed is no longer a int type, but a char type //
 }
-// These four are the most common forms of primitive data types found within code. //
-// There are also four others, but they are not used very often, and if you need to you can look it up //
-// The other four are byte, short, long, and float. //
+/* These four are the most common forms of primitive data types found within code.
+There are also four others, but they are not used very often, and if you need to you can look it up
+The other four are byte, short, long, and float. */
+
+/*
+
+
+ If you are advanced or really want to go beyond what you need to know at the time continue, if not, then move onto the labs
+
+
+*/
+
+// The 8 of those are under the name of primitive data types, but belong under the umbrella of reserved words
+// Reserved words in Java mean that these words have special meaning within Java and Java only //
+// These words all start with a lower case letter (This is how you can tell) //
+// The complete list are... //
+class Reserved {
+    abstract assert boolean break byte case catch char class const continue default do double else
+    enum extends false final finally float for goto if implements import instanceof int super switch
+    synchronized this throw throws transient true try void volatile while interface long native new null package
+    private protected public return short static strictfp
+}
+/* of those these are the most important ones //
+abstract, boolean, break, char, class, double, super, else, extends, false, final, for, if, implements, int, this, true
+void, while, new, null, private, public, return, static
+Those you will need to now for a basic understanding of Java, and to have success on the AP Exam
+Now to describe what each means
+This will be useful to come back to for future reference */
+
+
+abstract
+/* Means that an object cannot be created using the thing it is modifying(class, method, or variable)
+ Essentially means that it can be used by all methods or classes that inherit it, but cannot be used to create an object
+ For example
+Say I have an abstract class Bird, that means I cannot do this */
+Object Sparrow = new Bird();
+// This will not work because Bird is a abstract class //
+
+//boolean//
+/*Pretty simple, is a data type that can only contain two values, either true or false.
+ This is helpful for returning certain data and looping */
+
+//break//
+/* Used to break out of a loop
+So if a certain requirement is met, then you can put break(); and it will stop looping and go to the next piece of code */
+
+//char//
+/* Is a character and I described this earlier so I wont go into depth but know that char can only be 1 value long, otherwise
+ You must use String */
+
+//class//
+// Is used to define a class which is the backbone of a program //
+
+//double//
+// Is a primitive data type that is the same as int but holds a decimal value //
+
+//super//
+/* Super is used as a way to access a parent classes data/ variables. Can be very useful for manipulating data
+used by putting either a variable within the constructor to super.variable; or by directly doing it within the code */
+
+//else//
+/* Pretty indicative with its name, and is used if a requirement is not met, then do this is what else means
+Can be used with if to create an if else statement which is generally just better code if you are using a an if statement
+ or you want different things to happen if a certain requirement is not met but a different requirement is or not */
+
+//extends//
+// Is used to create a class hierarchy, which will  be discussed more later, but allows for certain things to happen //
+// when it comes to the interaction between the parent and the child(s) classes //
+
+//false//
+// Well you know what it means //
+
+//final//
+// Is used to create a constant, more on this in Unit 2 //
+
+//for//
+/* Used to create loops and means that while certain requirements are not met do this until it is
+Generally seen as for(int i = 0; i < variable; i++)
+This means that while integer i is less than variable, it will execute the code within and each time it goes all the way through
+it will add 1 to i. Is inclusive of the initial number i is set to (Need to know)
+Also it doesn't always have to be i, it can be a or b or any other integer or double, but i is the most common */
+
+//if//
+/* Means that if a requirement is met, the code within will execute.
+Can be anything really and just takes practice to learn what can be put into an if statement, but it will always be a check of some
+sort.
+Also note that if statements are inherently a boolean type and so if you put the statement
+if(a boolean variable)
+and it is true, then the code within will execute. If it is false it will not execute the code.
+Also if statements look like this
+if(variablea == variableb)*/
+
+//implements//
+/* implements is the keyword for connecting a class to an interface so that way the interface must be overridden in the class that
+implements it. */
+
+//int//
+// Is a primitive data type that accepts only whole numbers //
+
+//this//
+/* This is a keyword very similar to that of self within Python. This keyword basically just means that the variable within the constructor is the
+class inherently. Actually doesn't have to get used to often, and can be not used by just setting the passed variable to an already defined variable
+within the class. */
+
+//true//
+// You know what this means too //
+
+//void//
+// There cannot be a return statement contained within the code that void is modifying //
+
+//while//
+/* While is used for looping mostly and is also inherently a boolean type (if need more info look at if above)
+What while means is that while something is either true or false, the following code will occur.
+is useful for really long looping. Also a computer will get angry with you if you create an infinite while loop and will throw an error
+To get out of a while loop either use the keyword break or set the requirement within the while loop to something that will be met at '
+some point during the while loop.
+For example while loops look like this
+while(true) */
+
+//new//
+/* is used to create a new object. Just know that whenever you are creating something under the Object superclass you
+must use new to define it. */
+
+//null//
+// Means there is either nothing within something or there is just nothing at all //
+
+//private//
+/* Is a type of security level I like to think of it. Public is the highest meaning anybody can access it through out the code,
+protected, which isn't used very often, can only be viewed by certain things, and private which means that only the thing
+that is instantiating the variable or the thing with the private modifier, can access the data within that thing. */
+
+//public//
+// Basically the opposite of private, in that any part of the entirety of a code can access something that is public //
+
+//return//
+/* so return is a bit like System.out.print. Think of it like this, print (which im going to use to signify System.out.print because i'm lazy)
+prints on the console a set something. This is how return works but instead of putting it on the console, it instead sneds
+itself to the thing that instantiated it whether that be a new variable or something else. */
+
+//static//
+// Means that whatever is being modified by static cannot be changed after it is instantiated. //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//System.out.println("This is");//
+//System.out.println("a");//
+//System.out.println("basic Java");//
+//System.out.println("sentence.");//
