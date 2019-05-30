@@ -1,0 +1,74 @@
+// Welcome to the AP Computer Science Course! This is a guide that will help you along the way to getting a five on the //
+// AP Exam! First things first I want to describe what language you will be coding in throughout the year, which is Java. //
+// Java is an object orientated programing language, which you will find out more what that means later in the course //
+// To start off lets start with the backbone of all Java programs, classes and how to print to a console //
+
+// Here I have a class named Main. Now if you are using IDLE, the name of the class has to be the same as the page //
+// This class can do whatever I want it to, if I know the code that will make it do so //
+// The goal of this class is to create the sentence "Hello World", here is how you do that //
+public class Unit1 {
+    // This is the the main method, which means that as soon as the class is instantiated, this method will occur //
+    // Think of it as whatever you put into here is what will happen when you start the actual code //
+    // This method is always typed as public static void main(String[] args), so to declare it you must type that //
+    public static void main(String[] args)
+    {
+        System.out.print("Hello World");
+        //basic();//
+
+    }
+    // if you run this code, on the console it will print Hello World. This is the most basic form of putting words and //
+    // such onto a console. Whatever words or things within the two quotation marks will be printed and if there is not //
+    // two quotation marks wither the code wont work or it will throw an error
+    // if you want to print it out on separate lines, use println instead of print //
+    // EX: //
+    //System.out.println("Hello");//
+    //System.out.println("World");//
+    // Will print //
+    // Hello //
+    // World //
+    // If you wish to see yourself, replace the code within the colored main method with the previous code //
+
+
+    // Now to test your basic Java skills, find the errors in the following code and correct it so that way it will print //
+    // This is //
+    // a //
+    // basic Java //
+    // sentence. //
+    // You must print it out in that order without any error messages //
+    public static void basic()
+    {
+        System.0ut.print("This is");
+        System.out.println("a");
+        Systm.out.println("basic Java");
+        System.out.println(sentence.");
+
+
+    }
+    // When you are ready go up to the main method and delete the two slashes on either side of the basic(). //
+    // Then after you complete that run Main //
+    // If there are errors or it does not look correct keep trying. If you need the answer go down to line 100 for the //
+    // full correct answer. //
+
+
+}
+// Now using the skills you just learned go to the Unit 1 Labs in Schoology and complete the Labs within //
+// This code within this part of the guide will help you complete this and the other things Thompson wants you to do //
+// Now onto other important things in Java that are in Unit 1 and basic java, variables and methods //
+
+
+
+
+// Variables are exactly like what you think of in math x and y //
+// In math x and y change depending on the input, this is how variables are in java //
+// The only thing that is different is that in java you have to define what kind of information you are putting in //
+// The most simple way of doing this is by using primitive data types, or the words you put before a variable that are lowercase //
+// These next few lines contain all of the primitive data types relevant in this course. //
+class Variables {
+    int i = 0; // must be a number without a decimal place //
+    double x = 1.0; // must be a number but will always have a decimal place //
+    boolean tru = true; // is either true or false //
+    char a = 'a'; // is a character, so a letter or a number but the number, if imputed is no longer a int type, but a char type //
+}
+// These four are the most common forms of primitive data types found within code. //
+// There are also four others, but they are not used very often, and if you need to you can look it up //
+// The other four are byte, short, long, and float. //
